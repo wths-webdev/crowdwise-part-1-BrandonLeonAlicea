@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+body > header,
+body > main,
+body > nav {
+    border: solid red 1px;
+    max-width: 612px;
+    margin: auto;
+}
+
+body > header {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 50px;
+    }
+}
